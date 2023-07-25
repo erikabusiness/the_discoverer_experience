@@ -87,5 +87,16 @@ img {
 .text-body-secondary > a {
     text-decoration: none !important;
 }
+#txt-prom {
+    text-align: center;
+}
+#txt-pac {
+    text-align: center;
+    margin: 30px 50px;
+}
+.card-body li {
+    color: var(--rosatitulo) !important;
+}
+
 
 
