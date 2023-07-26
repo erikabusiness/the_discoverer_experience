@@ -93,6 +93,38 @@ img {
 .card-body li {
     color: var(--rosatitulo) !important;
 }
+.container-fluid {
+    background-color: #DB2777;
+}
+.promo-badge {
+    background-color: #FF0000; /* Cor de fundo da badge */
+    color: #FFFFFF; /* Cor do texto da badge */
+    padding: 4px 8px; /* Espaçamento interno da badge */
+    border-radius: 4px; /* Borda arredondada */
+    position: absolute; /* Posição da badge dentro da card */
+    top: 10px; /* Distância do topo */
+    right: 10px; /* Distância da direita */
+}
+/* Estilo dos preços */
+.price {
+    font-size: 14px; /* Tamanho do texto do preço */
+    font-weight: bold; /* Negrito no preço */
+    margin-top: 10px; /* Espaçamento entre o texto e o preço */
+  }
+  
+  /* Estilo do valor final com tamanho maior */
+  .final-price {
+    font-size: 24px; /* Tamanho maior do valor final */
+  }
+  
+  /* Estilo do preço antigo com efeito riscado */
+  .old-price {
+    text-decoration: line-through; /* Efeito de texto riscado */
+    color: #888; /* Cor do preço antigo */
+  }
+  
+ 
+  
 
 
 
