@@ -65,6 +65,9 @@ main>small {
     color: var(--rosatitulo);
     margin-bottom: 20px;
 }
+.rounded-custom {
+  border-radius: 5px; /*Bordas das imagens da home */
+}
 footer {
     background-color: var(--rosatitulo);
     color: whitesmoke;
@@ -113,24 +116,30 @@ img {
 }
   
   /* Estilo do valor final com tamanho maior */
-  .final-price {
+.final-price {
     font-size: 24px; /* Tamanho maior do valor final */
 }
   
   /* Estilo do preço antigo com efeito riscado */
-  .old-price {
+.old-price {
     text-decoration: line-through; /* Efeito de texto riscado */
     color: #888; /* Cor do preço antigo */
 }
-#ft-cntt {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: var(--rosatitulo);
-  color: whitesmoke;
-  text-align: center;
-  padding: 2px;
+.ft-cntt {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--rosatitulo);
+    color: whitesmoke;
+    text-align: center;
+    padding: 2px;
+}
+.banner {
+    color: var(--rosatitulo);
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 50px;
 }
 
 
