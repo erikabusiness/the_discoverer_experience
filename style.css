@@ -110,18 +110,21 @@ img {
     font-size: 14px; /* Tamanho do texto do preço */
     font-weight: bold; /* Negrito no preço */
     margin-top: 10px; /* Espaçamento entre o texto e o preço */
-  }
+}
   
   /* Estilo do valor final com tamanho maior */
   .final-price {
     font-size: 24px; /* Tamanho maior do valor final */
-  }
+}
   
   /* Estilo do preço antigo com efeito riscado */
   .old-price {
     text-decoration: line-through; /* Efeito de texto riscado */
     color: #888; /* Cor do preço antigo */
-  }
+}
+
+
+
   
  
   
