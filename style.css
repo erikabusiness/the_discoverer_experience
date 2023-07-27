@@ -14,7 +14,7 @@
 /*Cabeçalho */
 #header {
     text-align: center;
-    padding: 50px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
     position: fixed; /*fixa toda essa div*/
     top: 0; /*anchor point da pagina*/
     z-index: 1000; /*usado pra garantir que header e nav não seja sobreposto */
@@ -43,7 +43,7 @@ a.active {
     border: var(--rosatitulo) !important;
     border-radius: 20px !important;
     margin-right: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     transition: .3s ease all !important; 
 }
 
