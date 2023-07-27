@@ -122,6 +122,16 @@ img {
     text-decoration: line-through; /* Efeito de texto riscado */
     color: #888; /* Cor do preço antigo */
 }
+#ft-cntt {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--rosatitulo);
+  color: whitesmoke;
+  text-align: center;
+  padding: 2px;
+}
 
 
 
