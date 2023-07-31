@@ -141,12 +141,8 @@ img {
     text-align: center;
     padding: 50px;
 }
-
-
-
-  
- 
-  
-
-
-
+@media (max-width: 320px) {
+   main {
+    margin-top: 280px !important;
+}
+}
