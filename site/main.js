@@ -1,11 +1,7 @@
-window.addEventListener('scroll', onScroll)
-
-const header = document.querySelector('#header')
-
-function onScroll() {
+export function onScroll(header) {
   if (scrollY > 0) {
-    header.classList.add("scrolled")
+    header.classList.add("scrolled");
   } else {
-    header.classList.remove("scrolled")
+    header.classList.remove("scrolled");
   }
 }

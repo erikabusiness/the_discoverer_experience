@@ -12,7 +12,7 @@
     padding: 0;
 }
 /*Cabeçalho */
-#header {
+header {
     text-align: center;
     padding: 20px 0px 0px 0px;
     position: fixed; /*fixa toda essa div*/
@@ -21,7 +21,7 @@
 }
 
 /*Configuração da sombra que ativa ao rolar a pagina. Esta conectada com Javascript*/
-#header.scrolled {
+header.scrolled {
     -webkit-box-shadow: 0px 13px 25px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 13px 25px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 13px 25px 0px rgba(0, 0, 0, 0.75);
@@ -144,5 +144,5 @@ img {
 @media (max-width: 320px) {
    main {
     margin-top: 280px !important;
-}
+    }
 }
