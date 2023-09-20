@@ -1,4 +1,4 @@
-export function onScroll(header) {
+export const onScroll = (header) => {
   if (scrollY > 0) {
     header.classList.add("scrolled");
   } else {
