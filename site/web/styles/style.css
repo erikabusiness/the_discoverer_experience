@@ -78,6 +78,9 @@ footer>p>a {
     text-decoration: none;
     color: whitesmoke;
 }
+#footer-cntt {
+    position: fixed;
+}
 
 img {
     max-width: 1300px;
@@ -126,7 +129,7 @@ img {
     color: #888; /* Cor do preço antigo */
 }
 .ft-cntt {
-    position: fixed;
+    //position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
