@@ -16,4 +16,4 @@ cardsDestinos.map((destino) => {
   cardsContainer.innerHTML += CardsDestino(destino)
 })
 
-footer.innerHTML = Footer()
+footer.innerHTML = Footer() 
