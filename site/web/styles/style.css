@@ -157,3 +157,27 @@ img {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
+/* Teste */
+.gallery-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border: none;
+  
+}
+
+.gallery-item {
+    display: inline-block;
+    margin-right: 10px; /* Espaçamento entre as fotos */
+    
+}
+.gallery-item img {
+    max-width: 200px;
+    max-height: 350px;
+    border-radius: 7px;
+    position: relative;
+    
+}
+
