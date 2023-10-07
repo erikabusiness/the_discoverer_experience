@@ -14,7 +14,7 @@ function showRioGif() {
 }
 function hideRioGif(){
     var img2 = document.querySelector('#imgHome2')
-    img2.src = "../assets/home/rioVert.jpg"
+    img2.src = "../assets/home/rioVertV2.jpg"
 }
 
 /* Disney */

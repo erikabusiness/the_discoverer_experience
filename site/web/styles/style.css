@@ -83,7 +83,7 @@ footer>p>a {
 }
 
 img {
-    max-width: 1300px;
+
     margin-inline: auto;
 }
 .text-body-secondary > a {
@@ -180,4 +180,6 @@ img {
     position: relative;
     
 }
-
+.container-fluid {
+    padding: 0 Import !important;
+}
