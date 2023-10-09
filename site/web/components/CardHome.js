@@ -1,9 +1,9 @@
 
-export const CardHome = ({img, title}) => {
+export const CardHome = ({title, imgname, imgnum }) => {
     return `
-    <div class="col-4 text-center">
-    <img src="../assets/home/${img}.jpg" class="img-fluid rounded-custom" alt="${title}">
-    <div class="caption my-3"><h3>${title}</h3></div>
+    <div class="gallery-item" >
+        <h5 class="gallery-title">${title}</h5>
+        <img src="../assets/home/${imgname}Vert.jpg" alt="Foto ${imgnum}" width="640" height="1080" id="cardimg${imgnum}"  onmouseover="showGif(${imgnum},'${imgname}')" onmouseout="hideGif(${imgnum},'${imgname}')">
     </div>
     `
 }

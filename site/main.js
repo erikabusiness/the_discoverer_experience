@@ -5,3 +5,4 @@ export const onScroll = (header) => {
     header.classList.remove("scrolled");
   }
 }
+

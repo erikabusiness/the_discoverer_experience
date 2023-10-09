@@ -1,4 +1,43 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter&display=swap');
+
+/*variaveis do projeto*/
+:root {
+    --fontetitulo: 'Cinzel', serif;
+    --rosatitulo: #DB2777;
+}
+#bannerhome {
+    background-image: url('../assets/home/wallpaper.jpg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 10px 10px 100px 0px black;
+    height: 100vh;
+    justify-content: center !important;   
+    background-attachment: fixed;
+}
+#bannertitle {
+    color: var(--rosatitulo);
+    font-family: var(--fontetitulo);
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+.boxes {
+    background-color: rgba(245, 245, 245, 0.673);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.325);
+    color: black;
+    border-radius: 7px;
+    width: 300px;
+    height: 300px;
+    text-align: justify; 
+    margin: 20px; 
+    padding: 20px;  
+}
+.card-transparent {
+    background-color: rgba(255, 255, 255, 0.716);
+    margin: 10px;
+  }
+  
+
 
 
 

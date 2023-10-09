@@ -22,16 +22,35 @@ export const navLinks = [
 ]
 export const cardHome = [
     {
-        img: "dubaiVert",
         title:"Dubai",
+        imgname: "dubai",
+        imgnum: 1        
     }, 
     {
-        img: "maldivasVert",
-        title:"Maldivas"
+        title:"Rio de janeiro",
+        imgname: "rio",
+        imgnum: 2
+        
     }, 
     {
-        img: "disneyVert",
-        title: "Disney"
+        title:"Disney",
+        imgname: "disney",
+        imgnum: 3
+    },
+    {
+        title:"Maldivas",
+        imgname: "maldivas",
+        imgnum: 4
+    },
+    {
+        title:"Mykonos",
+        imgname: "mykonos",
+        imgnum: 5
+    },
+    {
+        title:"Toronto",
+        imgname: "toronto",
+        imgnum: 6
     }
 ]
 export const btnsHome = [

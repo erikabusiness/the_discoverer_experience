@@ -6,6 +6,7 @@ const header = document.querySelector("header");
 const divCardHome = document.querySelector("#cardsHome")
 const divBtnsHome = document.querySelector("#btnsHome")
 const footer = document.querySelector("footer")
+
 window.addEventListener("scroll", () => {
   onScroll(header);
 });
@@ -13,11 +14,12 @@ window.addEventListener("scroll", () => {
 header.innerHTML = Header();
 
 cardHome.map((destino) => {
-  divCardHome.innerHTML += CardHome(destino)     //escreve no html o conteudo da variavel cardsHome
+  divCardHome.innerHTML += CardHome(destino)     
 })
 
 btnsHome.map((botao) => {
   divBtnsHome.innerHTML += BtnsHome(botao)
 })
+
 
 footer.innerHTML = Footer()
