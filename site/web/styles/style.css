@@ -160,11 +160,12 @@ img {
 
 /* Teste */
 .gallery-container {
-    overflow-x: scroll;
+    overflow-x:scroll;
     white-space: nowrap;
     border: 1px solid #ccc;
     padding: 10px;
     border: none;
+    display: inline-block;
   
 }
 
@@ -179,6 +180,9 @@ img {
     border-radius: 7px;
     position: relative;
     
+}
+.gallery-item:last-child {
+    margin-right: 0; /* Remove a margem direita do último card */
 }
 .container-fluid {
     padding: 0 Import !important;
