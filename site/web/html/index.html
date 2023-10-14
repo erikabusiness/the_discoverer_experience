@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../styles/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
 </head>
 
@@ -18,30 +19,39 @@
 
     </header>
 
-  <main class="container">
+  <main class="container-fluid p-0">
     <h2>SEJA BEM VINDO!</h2>
-    <small>5 de agosto de 2023</small>
-    <h3>Destinos mais buscados hoje:</h3>
     
-    <div class="container mt-4 gallery-container photo-gallery" id="cardsHome" >
+    <div class="container">
+      <small id="atualdate"></small>
+      <h3>Destinos mais buscados hoje:</h3>
       
+      <!-- cards -->
+      <div class="container mt-4 gallery-container photo-gallery" id="cardsHome" >
+      </div>
+      <!-- fimcards -->
     </div>
 
+    <!-- frase -->
     <div class="container-fluid banner my-5" id="txtrosa">
       <h1>Uma agência de viagens moderna que te conecta perto e longe</h1>
     </div>
-
+    <!-- fimfrase -->
+    
+    <!-- nuvem de botões -->
     <div id="btnsHome" class="container my-5 p-3 d-flex justify-content-center flex-wrap">
-       
     </div>
-  </main>
+    <!--fim nuvem de botões-->
 
+
+  </main>
 
   <footer class="ft-cntt">
   </footer>
 
   <script src="../../main.js"></script>
   <script type="module" src="../js/index.js"></script>
+  
 </body>
 
 </html>

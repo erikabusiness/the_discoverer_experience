@@ -16,9 +16,9 @@
     background-attachment: fixed;
 }
 #bannertitle {
-    color: var(--rosatitulo);
+    color: whitesmoke;
     font-family: var(--fontetitulo);
-    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 100px 100px 200px rgba(0, 0, 0, 0.5);
 
 }
 .boxes {
@@ -36,6 +36,11 @@
     background-color: rgba(255, 255, 255, 0.716);
     margin: 10px;
   }
+#picture {
+    background-size: cover;
+    width: 100vh;
+    
+}
   
 
 

@@ -9,7 +9,7 @@ const footer = document.querySelector("footer")
 
 
 
-
+//alternar entre jpg e gifs
 window.addEventListener("scroll", () => {
   onScroll(header);
 });
@@ -39,5 +39,13 @@ cards.forEach((card, i) => {
   })
 })
 
+//data atual home
+export function atualizarData() {
+  const dataAtual = new Date();
+  const elementoData = document.getElementById('atualdate');
+  elementoData.textContent = dataAtual.toLocaleString();
+}
+window.addEventListener('load', atualizarData);
 
+// footer
 footer.innerHTML = Footer()

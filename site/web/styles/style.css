@@ -47,7 +47,7 @@ a.active {
     transition: .3s ease all !important; 
 }
 
-/*Configurações ao passar o mouse nos botões da nav (gerado por blackbox)*/
+/*Configurações ao passar o mouse nos botões da nav*/
 a.active:hover {
     transform: scale(1.1) !important;
     cursor: pointer !important;
@@ -61,20 +61,18 @@ main > h2 {
     text-align: center;
 }
 
-main > small {
+small {
     color: var(--rosatitulo);
     margin-bottom: 20px;
 }
-.rounded-custom {
-  border-radius: 5px; /*Bordas das imagens da home */
-}
+
 footer {
     background-color: var(--rosatitulo);
     color: whitesmoke;
     text-align: center;
-    padding: 2px;
+    padding: 50px;
 }
-footer>p>a {
+footer>p>strong>a, footer p a {
     text-decoration: none;
     color: whitesmoke;
 }
@@ -186,4 +184,8 @@ img {
 }
 .container-fluid {
     padding: 0 Import !important;
+}
+.devicon-linkedin-plain , .devicon-github-original {
+    color: white;
+    
 }
