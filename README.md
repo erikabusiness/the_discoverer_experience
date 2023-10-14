@@ -10,7 +10,6 @@ Neste README, você encontrará informações importantes sobre o projeto e como
 - [Visão Geral](#visão-geral)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Como Executar](#como-executar)
-- [Licença](#licença)
 
 ## Visão Geral
 
