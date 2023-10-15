@@ -1,27 +1,5 @@
 CREATE SCHEMA `the_discoverer_xp` ;
-//
-
-CREATE TABLE Reserva (
-
-idReserva INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-
-idPacote INT,
-idDestino INT,
-idUsuario INT,
-dtCheckout DATETIME,
-statusReserva BOOLEAN,
-dtCheckIn DATETIME,
-FOREIGN KEY(idPacote) REFERENCES Pacotes (idPacote),
-FOREIGN KEY(idDestino) REFERENCES Destino (idDestino),
-FOREIGN KEY(idUsuario) REFERENCES Usuario (idUsuario)
-);
-
-//
-
-
-
-
-
+USE `the_discoverer_xp` ;
 
 CREATE TABLE Pacotes (
 idPacote INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
@@ -29,13 +7,11 @@ descPacote DOUBLE,
 valorPacote DOUBLE
 );
 
-
 CREATE TABLE Destino (
 idDestino INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 nomeDestino VARCHAR(50),
 avaliacao INT
 );
-
 
 CREATE TABLE Usuario (
 idUsuario INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
@@ -46,11 +22,20 @@ nome VARCHAR(50),
 localização VARCHAR(100)
 );
 
+CREATE TABLE Reserva (
 
+idReserva INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 
-
-//
-
+idPacote INT,
+idDestino INT,
+idUsuario INT,
+dtCheckout VARCHAR(10),
+statusReserva BOOLEAN,
+dtCheckIn VARCHAR(10),
+FOREIGN KEY(idPacote) REFERENCES Pacotes (idPacote),
+FOREIGN KEY(idDestino) REFERENCES Destino (idDestino),
+FOREIGN KEY(idUsuario) REFERENCES Usuario (idUsuario)
+);
 
 ALTER TABLE `the_discoverer_xp`.`reserva` 
 DROP FOREIGN KEY `reserva_ibfk_1`,
@@ -72,3 +57,12 @@ ADD CONSTRAINT `reserva_ibfk_3`
   REFERENCES `the_discoverer_xp`.`usuario` (`idUsuario`)
   ON DELETE CASCADE
   ON UPDATE CASCADE;
+  
+CREATE VIEW reserva_destino as
+select r.idReserva, r.dtCheckout, r.statusReserva, r.dtCheckIn, d.*, p.*, u.* 
+from reserva r, destino d, pacotes p, usuario u
+where d.idDestino =  d.idDestino and p.idPacote = p.idPacote and u.idUsuario = u.idUsuario;
+
+select r.idReserva, r.dtCheckout, r.statusReserva, r.dtCheckIn, d.*, p.*, u.* 
+from reserva r, destino d, pacotes p, usuario u
+where d.idDestino =  d.idDestino and p.idPacote = p.idPacote and u.idUsuario = u.idUsuario;
