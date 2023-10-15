@@ -15,10 +15,6 @@ export const navLinks = [
         text: "contato",
         page: "contato",
     },
-    {
-        text: "modo escuro",
-        page: "darkmode",
-    }
 ]
 export const cardHome = [
     {

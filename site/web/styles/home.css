@@ -18,7 +18,8 @@
 #bannertitle {
     color: whitesmoke;
     font-family: var(--fontetitulo);
-    text-shadow: 100px 100px 200px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 1px black;
+    padding: 50px 0px 40px 0px;
 
 }
 .boxes {

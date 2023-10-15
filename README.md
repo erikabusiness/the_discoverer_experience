@@ -3,6 +3,8 @@
 Bem-vindo ao repositório do projeto "The Discoverer Experience". Este é um projeto de uma agência de viagens moderna que te conecta com destinos próximos e distantes e foi desenvolvido como projeto de avaliação do módulo 02 e 03 do curso Recode Pro. 
 Neste README, você encontrará informações importantes sobre o projeto e como configurá-lo.
 
+OBS: Abrir pelo Google Chrome.
+
 <img src="https://github.com/alvserika/the_discoverer_experience/blob/main/site/web/assets/tde.gif" alt="">
 
 ## Conteúdo
