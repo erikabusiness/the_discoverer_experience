@@ -59,6 +59,27 @@ a.active:hover {
     cursor: pointer !important;
     color: black !important;
 }
+#txt-lg-home {
+    border-right: 4px solid transparent;
+    font-size: 35px;
+    width: 59ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(59), blinking 0.5s infinite step-end;
+}
+@keyframes typing {
+    from {
+        width: 20ch;  
+    }
+    to {
+        width: 59ch; /* Largura máxima correspondente ao texto completo */
+    }
+}
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
 
 footer {
     background-color: var(--rosatitulo);
