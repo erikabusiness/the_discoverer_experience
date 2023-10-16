@@ -6,6 +6,48 @@
     --fontetitulo: 'Cinzel', serif;
     --rosatitulo: #DB2777;
 }
+main {
+    margin-top: 266px;
+    overflow-x: hidden;
+}
+main > h2 {
+    text-align: center;
+}
+
+small {
+    color: var(--rosatitulo);
+    margin-bottom: 20px;
+}
+/* Teste */
+.gallery-container {
+    overflow-x:scroll;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border: none;
+    display: inline-block;
+}
+.gallery-item {
+    display: inline-block;
+    margin-right: 10px; /* Espaçamento entre as fotos */
+    
+}
+.gallery-item img {
+    max-width: 200px;
+    max-height: 350px;
+    border-radius: 7px;
+    position: relative;
+    
+}
+.gallery-item:last-child {
+    margin-right: 0; /* Remove a margem direita do último card */
+}
+#txtrosa {
+    color: var(--rosatitulo);
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 50px;
+}
 #bannerhome {
     background-image: url('../assets/home/wallpaper.jpg');
     background-size: cover;
@@ -24,7 +66,7 @@
 }
 .boxes {
     background-color: rgba(245, 245, 245, 0.673);
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.325);
+    box-shadow: 2px 2px solid;
     color: black;
     border-radius: 7px;
     width: 300px;

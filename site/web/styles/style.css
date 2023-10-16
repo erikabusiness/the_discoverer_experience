@@ -10,8 +10,14 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 /*Cabeçalho */
+@media (max-width: 320px) {
+   main {
+    margin-top: 280px !important;
+    }
+}
 header {
     text-align: center;
     padding: 20px 0px 0px 0px;
@@ -54,19 +60,6 @@ a.active:hover {
     color: black !important;
 }
 
-main {
-    margin-top: 266px;
-    overflow-x: hidden;
-}
-main > h2 {
-    text-align: center;
-}
-
-small {
-    color: var(--rosatitulo);
-    margin-bottom: 20px;
-}
-
 footer {
     background-color: var(--rosatitulo);
     color: whitesmoke;
@@ -77,56 +70,8 @@ footer>p>strong>a, footer p a {
     text-decoration: none;
     color: whitesmoke;
 }
-#footer-cntt {
-    position: fixed;
-}
 
-img {
 
-    margin-inline: auto;
-}
-.text-body-secondary > a {
-    text-decoration: none !important;
-}
-#txt-prom {
-    text-align: center;
-}
-#txt-pac {
-    text-align: center;
-    margin: 30px 50px;
-}
-#prom {
-    text-align: center;
-}
-.card-body li {
-    color: var(--rosatitulo) !important;
-}
-.promo-badge {
-    background-color: #FF0000; /* Cor de fundo da badge */
-    color: #FFFFFF; /* Cor do texto da badge */
-    padding: 4px 8px; /* Espaçamento interno da badge */
-    border-radius: 4px; /* Borda arredondada */
-    position: absolute; /* Posição da badge dentro da card */
-    top: 10px; /* Distância do topo */
-    right: 10px; /* Distância da direita */
-}
-/* Estilo dos preços */
-.price {
-    font-size: 14px; /* Tamanho do texto do preço */
-    font-weight: bold; /* Negrito no preço */
-    margin-top: 10px; /* Espaçamento entre o texto e o preço */
-}
-  
-  /* Estilo do valor final com tamanho maior */
-.final-price {
-    font-size: 24px; /* Tamanho maior do valor final */
-}
-  
-  /* Estilo do preço antigo com efeito riscado */
-.old-price {
-    text-decoration: line-through; /* Efeito de texto riscado */
-    color: #888; /* Cor do preço antigo */
-}
 #footer-cntt {
     bottom: 0;
     left: 0;
@@ -136,75 +81,27 @@ img {
     text-align: center;
     padding: 2px;
 }
-#txtrosa {
-    color: var(--rosatitulo);
-    background-color: #FFFFFF;
-    text-align: center;
-    padding: 50px;
-}
-@media (max-width: 320px) {
-   main {
-    margin-top: 280px !important;
-    }
-}
-#bgrosa {
-    background-color: var(--rosatitulo);
-}
-.full-width {
-  margin-left: 0 !important; 
-  margin-right: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
 
-/* Teste */
-.gallery-container {
-    overflow-x:scroll;
-    white-space: nowrap;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border: none;
-    display: inline-block;
-  
-}
 
-.gallery-item {
-    display: inline-block;
-    margin-right: 10px; /* Espaçamento entre as fotos */
-    
-}
-.gallery-item img {
-    max-width: 200px;
-    max-height: 350px;
-    border-radius: 7px;
-    position: relative;
-    
-}
-.gallery-item:last-child {
-    margin-right: 0; /* Remove a margem direita do último card */
-}
-.container-fluid {
-    padding: 0 Import !important;
-}
 .devicon-linkedin-plain , .devicon-github-original {
     color: white;
     
 }
 ::-webkit-scrollbar {
     width: 8px;
+    height: 12px;
 }
 
 ::-webkit-scrollbar-track{
     background-color: whitesmoke;
-    
     padding: 2px;
     border-radius: 12px;
     outline: 2px solid var(--rosatitulo);
-    
 }
 
 ::-webkit-scrollbar-thumb{
     background-color: var(--rosatitulo);
     border-radius: 12px;
     padding: 2px;
-    border: 2px solid whitesmoke;}
+    border: 2px solid whitesmoke;
+}
