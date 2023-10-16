@@ -70,7 +70,7 @@ a.active:hover {
     width: 59ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2s steps(59), blinking 0.7s infinite step-end;   
+    animation: typing 3s steps(59), blinking 0.7s infinite step-end;   
 }
 @keyframes typing {
     from {
