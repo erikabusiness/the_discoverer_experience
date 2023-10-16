@@ -59,17 +59,23 @@ a.active:hover {
     cursor: pointer !important;
     color: black !important;
 }
+.banner {
+    display: flex; /* Crie um contêiner flexbox */
+    justify-content: center; /* Alinhe horizontalmente no centro */
+    align-items: center; /* Alinhe verticalmente no centro */
+}
 #txt-lg-home {
     border-right: 4px solid transparent;
     font-size: 35px;
     width: 59ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2s steps(59), blinking 0.5s infinite step-end;
+    animation: typing 2s steps(59), blinking 0.7s infinite step-end;
+    
 }
 @keyframes typing {
     from {
-        width: 20ch;  
+        width: 0ch;  
     }
     to {
         width: 59ch; /* Largura máxima correspondente ao texto completo */
