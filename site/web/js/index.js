@@ -1,6 +1,6 @@
 import { onScroll } from "../../main.js";
-import { BtnsHome, CardHome, Footer, Header } from "../components/index.js";
-import { btnsHome, cardHome } from "../constants/data.js";
+import { BtnsHome, CardHome, BoxHome, Footer, Header } from "../components/index.js";
+import { btnsHome, cardHome, boxHome } from "../constants/data.js";
 
 const header = document.querySelector("header")
 const divCardHome = document.querySelector("#cardsHome")
@@ -46,6 +46,12 @@ export function atualizarData() {
   elementoData.textContent = dataAtual.toLocaleString();
 }
 window.addEventListener('load', atualizarData);
+
+//boxes do banner home
+const boxesHome = document.querySelector('.boxes-container')
+boxHome.map((box) => {
+  boxesHome.innerHTML += BoxHome(box)
+})
 
 // footer
 footer.innerHTML = Footer()

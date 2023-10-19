@@ -93,6 +93,23 @@ export const btnsHome = [
     
     
 ]
+export const boxHome = [
+    {
+        title: 'Quero voltar!',
+        content: 'Minha viagem a Dubai foi incrível! A cidade é simplesmente deslumbrante, com arranha-céus imponentes. A equipe da The Discoverer Experience fez tudo perfeito, desde a acomodação até os passeios. Mal posso esperar a próxima aventura!',
+        name: 'Miguel Tavares'
+    },
+    {
+        title: 'Brazil is amazing!',
+        content: 'Rio de Janeiro é uma cidade maravilhosa e minha viagem foi inesquecível. A equipe da agência de viagens foi muito atenciosa e tornou tudo mais fácil. Recomendo a The Discoverer Experience para qualquer um que queira explorar o Brasil!',
+        name: 'Olivia Andrade'
+    },
+    {
+        title: 'Incrivel!',
+        content: 'A viagem para as Maldivas foi um sonho se tornando realidade! As praias de areia branca e a água cristalina eram de tirar o fôlego. A agência cuidou de todos os detalhes, tornando a viagem livre de estresse. Definitivamente, vou reservar com eles novamente.',
+        name: 'Martina de Souza'
+    }
+]
 export const cardsDestinos = [
     {
         img: "paris_poster",
