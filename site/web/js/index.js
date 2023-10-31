@@ -1,4 +1,4 @@
-import { onScroll } from "../../main.js";
+import { onScroll } from "./main.js";
 import { BtnsHome, CardHome, BoxHome, Footer, Header } from "../components/index.js";
 import { btnsHome, cardHome, boxHome } from "../constants/data.js";
 
