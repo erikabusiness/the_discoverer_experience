@@ -13,6 +13,7 @@ OBS: *Melhor desempenho no Google Chrome.
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Banco de Dados](#banco-de-dados)
 - [Como Executar](#como-executar)
+- [Nota do projeto](#nota-do-projeto)
 
 ## Visão Geral
 
@@ -69,6 +70,10 @@ Além do código, há arquivos de documentação e outros recursos relacionados 
   - `LOGICO_1.brm`: Arquivo do BR Model (modelo lógico).
 
 Este banco de dados é essencial para armazenar e gerenciar informações sobre destinos, pacotes de viagem, reservas e usuários no projeto "The Discoverer Experience".
+
+### Nota do Projeto
+
+()
 
 ## Como Executar
 
