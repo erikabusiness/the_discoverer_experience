@@ -73,7 +73,7 @@ Este banco de dados é essencial para armazenar e gerenciar informações sobre 
 
 ### Nota do Projeto
 
-()
+![nota-modulo-3](https://raw.githubusercontent.com/alvserika/the_discoverer_experience/00e23ca2a1fe43dacbe71d1d062867b20683ee35/site/nota-modulo-3.png)
 
 ## Como Executar
 
