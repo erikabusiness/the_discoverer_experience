@@ -5,7 +5,7 @@ Bem-vindo ao repositório do projeto "The Discoverer Experience". Este é um pro
 OBS: *Melhor desempenho no Google Chrome.
      **Aguardar carregamento das imagens devido ao tamanho.
 
-![The Discoverer Experience](https://github.com/erikabusiness/the_discoverer_experience/blob/main/site/web/assets/tdev2.gif)
+![The Discoverer Experience](https://github.com/erikabusiness/the_discoverer_experience/blob/main/assets/tdev2.gif)
 
 ## Conteúdo
 
