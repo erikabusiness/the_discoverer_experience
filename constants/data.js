@@ -9,7 +9,7 @@ export const navLinks = [
     },
     {
         text: "promoções",
-        page: "promoçoes",
+        page: "promocoes",
     },
     {
         text: "contato",
